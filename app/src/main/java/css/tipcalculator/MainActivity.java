@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         editTextNumberInParty = findViewById(R.id.editTextNumberInParty);
         tvTotalTipAmount = findViewById(R.id.tvTotalTipAmount);
         tvTipPerPersonAmount = findViewById(R.id.tvTipPerPersonAmount);
+        buttonCalcTip =  findViewById(R.id.buttonCalcTip);
         checkBox =  findViewById(R.id.checkBox);
 
         buttonCalcTip.setOnClickListener(new View.OnClickListener() {
